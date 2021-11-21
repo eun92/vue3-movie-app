@@ -8,11 +8,11 @@ export default {
   namespaced: true, 
   // data! 함수로 표현
   state: () => ({
-      movies: [],
-      message: _defaultMessage,
-      loading: false,
-      theMovie: {}
-    }),
+    movies: [],
+    message: _defaultMessage,
+    loading: false,
+    theMovie: {}
+  }),
   // computed!
   getters: {
     // movieIds(state) {
